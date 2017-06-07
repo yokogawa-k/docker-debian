@@ -11,6 +11,10 @@ env:
 services:
   - docker
 
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y debootstrap
+
 script:
   - make IMAGE=${USER}/${REPO} SUITE=${SUITE}
 
