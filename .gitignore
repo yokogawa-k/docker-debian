@@ -1,1 +1,4 @@
-mkimage-debootstrap.sh
+mkimage-debootstrap.sh.org
+keyrings/
+mkimage/
+mkimage.sh
